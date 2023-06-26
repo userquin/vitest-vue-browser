@@ -1,5 +1,5 @@
 {
-  "name": "@vitest/example-vue-in-browser",
+  "name": "vitest-vue-browser",
   "private": true,
   "scripts": {
     "dev": "vite",
