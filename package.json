@@ -1,0 +1,20 @@
+{
+  "name": "@vitest/example-vue-in-browser",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitest/browser": "file:vitest-browser-0.32.2.tgz",
+    "vite": "^4.3.9",
+    "vitest": "file:vitest-0.32.2.tgz"
+  },
+  "xstackblitz": {
+    "startCommand": "npm run test:stackblitz"
+  }
+}
