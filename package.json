@@ -2,6 +2,8 @@
   "name": "@vitest/example-vue-in-browser",
   "private": true,
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "vitest",
     "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
   },
