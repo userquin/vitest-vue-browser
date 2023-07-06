@@ -20,7 +20,7 @@
     "vite": "^4.3.9",
     "vitest": "file:vitest-0.32.2.tgz"
   },
-  "xstackblitz": {
-    "startCommand": "npm run test"
+  "stackblitz": {
+    "startCommand": "pnpm run test"
   }
 }
